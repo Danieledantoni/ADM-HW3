@@ -3,7 +3,10 @@
 
 # # Algorithmic Question
 
-# You are given a string, s. Let's define a subsequence as the subset of characters that respects the order we find them in s. For instance, a subsequence of "DATAMINING" is "TMNN". Your goal is to define and implement an algorithm that finds the length of the longest possible subsequence that can be read in the same way forward and backwards. For example, given the string "DATAMININGSAPIENZA" the answer should be 7 (dAtamININgsapIenzA).
+# You are given a string, s. Let's define a subsequence as the subset of characters that respectsthe order we find them in s. For 
+# instance, a subsequence of "DATAMINING" is "TMNN". Your goal is to define and implement an algorithm that finds the length of the 
+# longest possible subsequence that can be read in the same way forward and backwards. For example, given the string "DATAMININGSAPIENZA" 
+# the answer should be 7 (dAtamININgsapIenzA).
 
 # # Algorithm
 
