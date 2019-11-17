@@ -7,10 +7,9 @@
 
 # # Algorithm
 
-# ##Step 1 : Given a String "string" Find the length of it
+###Step 1 : Given a String "string" Find the length of it
 
 # #Step 2 : Find whether the String is Palindrome or not by using string reverse.  If its palindrome return the original length of the string
-# 
 
 # ##Step 3: Find the Substrings of the length greater than or equal to 1 and lesser than length of the string.
 
@@ -18,7 +17,6 @@
 
 # #Repeat the step from the length of the string decending till 1
 
-# In[7]:
 
 
 from itertools import combinations
@@ -82,15 +80,12 @@ def algorithm(string):
             print(length)
 
 
-#
+#The maximum length along with all the possible reversible substrings will be printed
 string = "DATAMININGSAPIENZA"
 algorithm(string)
 
 
-# In[24]:
-
-
-The Above Greedy Alogrithm to find the reversive sub_string below
+#The Above Greedy Alogrithm to find the reversive sub_string below
 
 
 # Step 1 of 4 - Input and Check whether palindrome
