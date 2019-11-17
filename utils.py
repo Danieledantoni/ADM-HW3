@@ -1,7 +1,7 @@
 import math
 
 # given the document id we evaluate its norm
-def norm (doc_id):
+def norm (doc_id, inv_index):
     norm = 0
     for word_id in inv_index:
         for doc in inv_index[word_id]:
@@ -14,7 +14,7 @@ def norm (doc_id):
 
 # the document vector is alredy normalized, so we just need to compute the dot product between the query 
 # vector and the document
-def calc_cos (query, doc_id):
+def calc_cos (query, doc_id, inv_index, voc):
     dot_p = 0
     for words in query:
         word_id = str(voc[words])
